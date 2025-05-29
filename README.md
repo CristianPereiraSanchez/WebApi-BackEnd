@@ -5,19 +5,19 @@ Este proyecto es una **Web API construida con ASP.NET Core** que permite gestion
 ## Estructura del proyecto 
 
 TodoApi/
-│
-├── Controllers/              # Controladores (endpoints HTTP)
-├── Data/                     # Contexto de la base de datos (ApplicationDbContext)
-├── DTOs/                     # Data Transfer Objects (entradas y salidas de datos)
-├── Enums/                    # Enumeraciones usadas en la lógica
-├── Migrations/               # Migraciones de Entity Framework Core
-├── Models/                   # Entidades del dominio
-├── Services/                 # Lógica de negocio
-├── appsettings.json          # Configuración de la aplicación
-├── Program.cs                # Configuración y arranque de la app
-├── README.md                 # Este archivo
-├── TodoApi.http              # Pruebas de endpoints
-└── WeatherForecast.cs        # (Ejemplo por defecto de proyecto .NET, se puede eliminar)
+- │
+- ├── Controllers/              # Controladores (endpoints HTTP)
+- ├── Data/                     # Contexto de la base de datos (ApplicationDbContext)
+- ├── DTOs/                     # Data Transfer Objects (entradas y salidas de datos)
+- ├── Enums/                    # Enumeraciones usadas en la lógica
+- ├── Migrations/               # Migraciones de Entity Framework Core
+- ├── Models/                   # Entidades del dominio
+- ├── Services/                 # Lógica de negocio
+- ├── appsettings.json          # Configuración de la aplicación
+- ├── Program.cs                # Configuración y arranque de la app
+- ├── README.md                 # Este archivo
+- ├── TodoApi.http              # Pruebas de endpoints
+- └── WeatherForecast.cs        # (Ejemplo por defecto de proyecto .NET, se puede eliminar)
 
 ## Funcionamiento general
 
