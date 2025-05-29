@@ -30,16 +30,16 @@ TodoApi/
 # Usuarios
 
 Método	Ruta	Descripción
-POST	/api/auth/register	Registrar nuevo usuario
-POST	/api/auth/login	Iniciar sesión y obtener token
+- POST	/api/auth/register	Registrar nuevo usuario
+- POST	/api/auth/login	Iniciar sesión y obtener token
 
 # Tareas (Todos)
-Método	Ruta	Descripción
-GET	/api/tareas	Obtener todas las tareas del usuario
-GET	/api/tareas/{id}	Obtener una tarea específica
-POST	/api/tareas	Crear una nueva tarea
-PUT	/api/tareas/{id}	Actualizar una tarea existente
-DELETE	/api/tareas/{id}	Eliminar una tarea
+- Método	Ruta	Descripción
+- GET	/api/tareas	Obtener todas las tareas del usuario
+- GET	/api/tareas/{id}	Obtener una tarea específica
+- POST	/api/tareas	Crear una nueva tarea
+- PUT	/api/tareas/{id}	Actualizar una tarea existente
+- DELETE	/api/tareas/{id}	Eliminar una tarea
 
 ## Diagrama Entidad Relación
 ![image](https://github.com/user-attachments/assets/c10dfb06-4e92-49bd-a487-061f66c490ac)
