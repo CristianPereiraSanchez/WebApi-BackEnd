@@ -44,7 +44,7 @@ Método	Ruta	Descripción
 ## Endpoints Principales
  Todos los endpoints (excepto register y login) requieren autenticación con JWT.
 
-# Autenticación
+## Autenticación
 
 POST /api/account/register
 
@@ -87,13 +87,13 @@ Crea una nueva tarea.
 
 PUT /api/tareas/{id}
 
-# Actualiza una tarea por ID.
+Actualiza una tarea por ID.
 
 DELETE /api/tareas/{id}
 
-# Elimina una tarea por ID.
+Elimina una tarea por ID.
 
-# Gestión de Categorías
+## Gestión de Categorías
 
 GET /api/categorias
 
