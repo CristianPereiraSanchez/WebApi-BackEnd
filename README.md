@@ -1,12 +1,16 @@
-Estructura de aplicación web To Do API
-FUNCIONAMIENTO GENERAL DEL FLUJO
-El cliente (frontend) hace una petición a la API, por ejemplo: POST /api/todo.
-El TodoController recibe la solicitud.
-El Controller usa un TodoService que contiene la lógica de negocio.
-El Service usa el DbContext definido en Data/ para acceder a la base de datos.
-Los datos se mapean entre DTOs y Models.
-Se responde con los datos necesarios al cliente.
-EXPLICACIÓN DEL FUNCIONAMIENTO
+# Estructura de aplicación web To Do API
+
+## FUNCIONAMIENTO GENERAL DEL FLUJO
+
+-El cliente (frontend) hace una petición a la API, por ejemplo: POST /api/todo.
+-El TodoController recibe la solicitud.
+-El Controller usa un TodoService que contiene la lógica de negocio.
+-El Service usa el DbContext definido en Data/ para acceder a la base de datos.
+-Los datos se mapean entre DTOs y Models.
+-Se responde con los datos necesarios al cliente.
+
+
+## EXPLICACIÓN DEL FUNCIONAMIENTO
 Program.cs
 Es el punto de entrada de la aplicación.
 Aquí se configura el host, middlewares (como CORS, autenticación, logging), servicios (como EF Core, AutoMapper), etc.
@@ -35,6 +39,7 @@ En esta carpeta defines tipos de datos constantes, como:
 ÁRBOL DE CARPETAS
 enum Priority { Low, Medium, High }
 
+
 TodoApi/
 │
 ├── Connected Services/           # Servicios externos conectados (opcional, poco usado en APIs modernas)
@@ -54,5 +59,5 @@ TodoApi/
 ├── TodoApi.http                  # Archivo para probar endpoints HTTP (VS Code / VS)
 └── WeatherForecast.cs            # Archivo de ejemplo, se puede eliminar si no se usa
 
-
+## Diagrama Entidad Relación
 ![image](https://github.com/user-attachments/assets/c10dfb06-4e92-49bd-a487-061f66c490ac)
