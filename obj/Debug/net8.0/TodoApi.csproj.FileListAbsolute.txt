@@ -345,4 +345,7 @@ C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\obj\Debug\net8.0\refint\TodoApi.d
 C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\obj\Debug\net8.0\TodoApi.pdb
 C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\obj\Debug\net8.0\TodoApi.genruntimeconfig.cache
 C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\obj\Debug\net8.0\ref\TodoApi.dll
+C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\obj\Debug\net8.0\TodoApi.sourcelink.json
+C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\bin\Debug\net8.0\todo-app\package-lock.json
+C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\bin\Debug\net8.0\todo-app\package.json
 C:\Users\vanit\Desktop\TodoApi\TodoApi\TodoApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -64,8 +64,14 @@ namespace TodoApi.Controllers
             // Genera un token JWT
             var token = _tokenService.CreateToken(usuario);
 
+            var userInfo = new
+            {
+                username = usuario.NombreUsuario,
+                role = usuario.Rol.ToString()
+            };
+
             // Retorna el token al cliente
-            return Ok(new { token });
+            return Ok(new { token, User = userInfo });
         }
     }
 }

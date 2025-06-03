@@ -8,6 +8,17 @@ using TodoApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") 
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // Obtener configuración JWT
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 
@@ -81,6 +92,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("AllowReactApp");
 app.UseAuthentication(); // 🔐 Debe ir antes de Authorization
 app.UseAuthorization();
 
